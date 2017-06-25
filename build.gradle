@@ -1,8 +1,16 @@
+plugins {
+    id 'java'
+    id 'com.gradle.build-scan' version '1.8'
+}
+
+buildScan {
+    licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+    licenseAgree = 'yes'
+    publishAlways()
+}
+
 group 'com.github.gregwhitaker'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
 sourceCompatibility = 1.8
 
 repositories {
@@ -10,5 +18,5 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.pubnub:pubnub-gson:4.+'
 }
