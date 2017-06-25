@@ -3,7 +3,7 @@
 
 Example of using [PubNub](http://www.pubnub.com) to publish and subscribe to messages.
 
-# Prerequisites
+## Prerequisites
 This example requires that you create a PubNub account.  Using the account you will need 
 to create a keyset which will give you the "subscribe key" and a "publish key" required to run
 the example.
