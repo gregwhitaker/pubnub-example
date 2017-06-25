@@ -1,6 +1,14 @@
 # pubnub-example
+[![Build Status](https://travis-ci.org/gregwhitaker/pubnub-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/pubnub-example)
 
-Example of using PubNub to publish and subscribe to messages.
+Example of using [PubNub](http://www.pubnub.com) to publish and subscribe to messages.
+
+## Running the Example
+The example can be run using the following gradle command:
+
+```
+$ ./gradlew run -DsubscribeKey={subscribe key} -DpublishKey={publish key}
+```
 
 ## License
 MIT License
