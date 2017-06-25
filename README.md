@@ -1,6 +1,6 @@
 # pubnub-example
 
-Simple example of using PubNub to publish and subscribe to messages.
+Example of using PubNub to publish and subscribe to messages.
 
 ## License
 MIT License
