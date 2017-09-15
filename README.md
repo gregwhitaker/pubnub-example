@@ -15,6 +15,9 @@ The example can be run using the following gradle command:
 $ ./gradlew run -DsubscribeKey={subscribe key} -DpublishKey={publish key}
 ```
 
+## Bugs and Feedback
+For bugs, questions and discussions please use the [Github Issues](https://github.com/gregwhitaker/pubnub-example/issues).
+
 ## License
 MIT License
 
